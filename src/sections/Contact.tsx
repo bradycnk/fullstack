@@ -109,6 +109,48 @@ export function Contact() {
           </p>
         </div>
 
+        {/* What happens next */}
+        <div className={`mb-16 transition-all duration-1000 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
+          <h3 className="text-center text-lg font-semibold text-gray-300 mb-8">
+            ¿Qué sucede cuando me contactas?
+          </h3>
+          <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            {[
+              {
+                step: '1',
+                color: '#0066FF',
+                title: 'Te respondo en menos de 24h',
+                description: 'Me pondré en contacto para coordinar una llamada o responderte por escrito, según prefieras.'
+              },
+              {
+                step: '2',
+                color: '#00D9A5',
+                title: 'Consulta gratuita de 30 min',
+                description: 'Analizamos juntos tu idea, resuelvo tus dudas y evalúo qué solución se adapta mejor a ti.'
+              },
+              {
+                step: '3',
+                color: '#FF6B35',
+                title: 'Recibes tu propuesta',
+                description: 'Te envío un presupuesto detallado con tiempos y costos exactos. Sin compromiso de tu parte.'
+              }
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-4 p-5 rounded-xl bg-white/[0.03] border border-white/5">
+                <div
+                  className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5"
+                  style={{ background: `${item.color}20`, color: item.color, border: `1.5px solid ${item.color}40` }}
+                >
+                  {item.step}
+                </div>
+                <div>
+                  <p className="text-white font-medium text-sm mb-1">{item.title}</p>
+                  <p className="text-gray-500 text-sm leading-relaxed">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Contact Methods */}
           <div className={`lg:col-span-2 space-y-6 transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>

@@ -76,10 +76,10 @@ export function Hero() {
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Especialista en desarrollo <span className="text-[#0066FF] font-medium">Full Stack</span>, 
-              integración de <span className="text-[#00D9A5] font-medium">Inteligencia Artificial</span> y 
-              automatización de <span className="text-[#FF6B35] font-medium">ventas online</span>. 
-              Creo soluciones tecnológicas que impulsan tu negocio.
+              ¿Tienes una <span className="text-[#0066FF] font-medium">idea de negocio</span>, necesitas una
+              <span className="text-[#00D9A5] font-medium"> página web profesional</span> o quieres
+              <span className="text-[#FF6B35] font-medium"> vender tus productos en internet</span>?
+              Me encargo de todo lo técnico para que tú solo te preocupes por hacer crecer tu negocio. Sin jerga, sin complicaciones.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -108,15 +108,15 @@ export function Hero() {
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-white/10">
               <div>
                 <div className="text-2xl sm:text-3xl font-bold text-[#0066FF]">+50</div>
-                <div className="text-sm text-gray-500 mt-1">Proyectos</div>
+                <div className="text-sm text-gray-500 mt-1">Proyectos Entregados</div>
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-bold text-[#00D9A5]">+30</div>
-                <div className="text-sm text-gray-500 mt-1">Clientes</div>
+                <div className="text-sm text-gray-500 mt-1">Clientes Satisfechos</div>
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-bold text-[#FF6B35]">100%</div>
-                <div className="text-sm text-gray-500 mt-1">Satisfacción</div>
+                <div className="text-sm text-gray-500 mt-1">Satisfacción Garantizada</div>
               </div>
             </div>
           </div>
