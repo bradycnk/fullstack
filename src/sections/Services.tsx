@@ -13,44 +13,44 @@ const services = [
   {
     icon: Code2,
     title: 'Desarrollo Web Full Stack',
-    description: 'Aplicaciones web completas desde el frontend hasta el backend. Uso las tecnologías más modernas para crear experiencias digitales excepcionales.',
+    description: 'Construyo tu sitio web o aplicación desde cero: con usuarios, pagos, bases de datos y todo funcionando. Ideal si tienes una idea y necesitas hacerla realidad en internet.',
     color: '#0066FF',
-    features: ['React & Next.js', 'Node.js & Express', 'APIs RESTful', 'PostgreSQL & MongoDB']
+    features: ['Registro de usuarios', 'Pagos integrados', 'Panel de administración', 'Funcionamiento en la nube']
   },
   {
     icon: Brain,
     title: 'Integración de IA',
-    description: 'Potencia tus aplicaciones con Inteligencia Artificial. Chatbots inteligentes, análisis predictivo y automatización de procesos.',
+    description: 'Agrego un asistente virtual que responde preguntas de tus clientes las 24 horas, o que analiza la información de tu negocio para tomar mejores decisiones sin esfuerzo extra.',
     color: '#00D9A5',
-    features: ['Chatbots IA', 'Análisis de datos', 'Machine Learning', 'NLP & Vision']
+    features: ['Asistente virtual 24/7', 'Respuestas automáticas', 'Análisis de datos', 'Integración sencilla']
   },
   {
     icon: ShoppingCart,
     title: 'Apps de Ventas Online',
-    description: 'Plataformas de e-commerce para productos físicos y digitales. Sistemas de pago integrados y gestión de inventario.',
+    description: 'Vende tus productos o servicios online sin depender de otras plataformas. Tu propia tienda con carrito, pagos seguros y control total de tu inventario desde cualquier dispositivo.',
     color: '#FF6B35',
-    features: ['Pasarelas de pago', 'Productos digitales', 'Gestión de stock', 'Facturación automática']
+    features: ['Carrito de compras', 'Pagos seguros', 'Control de inventario', 'Facturación automática']
   },
   {
     icon: Zap,
     title: 'Automatización de Ventas',
-    description: 'Optimiza tus procesos de venta con flujos automatizados. Desde captación de leads hasta seguimiento post-venta.',
+    description: 'Deja que el sistema trabaje por ti: correos automáticos a clientes potenciales, seguimiento de ventas y reportes listos, sin que tengas que hacer nada manualmente.',
     color: '#FFD700',
-    features: ['Email marketing', 'CRM integrado', 'Embudos de venta', 'Reportes automáticos']
+    features: ['Correos automáticos', 'Seguimiento de clientes', 'Embudos de venta', 'Reportes diarios']
   },
   {
     icon: Smartphone,
     title: 'Apps Android PWA',
-    description: 'Aplicaciones progresivas que funcionan como nativas. Instalables, rápidas y con experiencia de usuario superior.',
+    description: 'Tu aplicación disponible directamente en el celular Android de tus clientes, sin que ellos tengan que ir a ninguna tienda de apps. Se instala fácil y funciona rápido.',
     color: '#9F7AEA',
-    features: ['Instalables', 'Modo offline', 'Notificaciones push', 'Responsive']
+    features: ['Se instala directo', 'Funciona sin internet', 'Notificaciones push', 'Rápida y ligera']
   },
   {
     icon: Globe,
     title: 'Webs para Empresas',
-    description: 'Sitios web corporativos que destacan tu marca. Diseño profesional, SEO optimizado y alto rendimiento.',
+    description: 'Una presencia profesional en internet que transmite confianza, aparece en Google cuando buscan tu empresa y funciona perfectamente en celulares, tablets y computadoras.',
     color: '#F472B6',
-    features: ['Diseño único', 'SEO avanzado', 'Alto rendimiento', 'Multiidioma']
+    features: ['Diseño profesional', 'Aparece en Google', 'Carga ultrarrápida', 'Adaptada al celular']
   }
 ];
 
