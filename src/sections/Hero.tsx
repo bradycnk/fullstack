@@ -68,11 +68,11 @@ export function Hero() {
             </Badge>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
-              <span className="text-white">Transformo</span>
+              <span className="text-white">Si lo puedes</span>
               <br />
-              <span className="text-gradient">Ideas en</span>
+              <span className="text-gradient">Imaginar,</span>
               <br />
-              <span className="text-gradient-orange">Realidad Digital</span>
+              <span className="text-gradient-orange">Lo Podemos Programar</span>
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
