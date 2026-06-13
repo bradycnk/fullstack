@@ -1,3 +1,5 @@
+import { MatrixRain } from './components/MatrixRain';
+import { NeuralBackground } from './components/NeuralBackground';
 import { Navigation } from './sections/Navigation';
 import { Hero } from './sections/Hero';
 import { ForWho } from './sections/ForWho';
@@ -12,9 +14,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0e1a] text-white overflow-x-hidden">
+    <div className="relative min-h-screen bg-[#010401] text-white overflow-x-hidden">
+      <MatrixRain />
+      <NeuralBackground />
       <Navigation />
-      <main>
+      <main className="relative z-10">
         <div id="inicio">
           <Hero />
         </div>

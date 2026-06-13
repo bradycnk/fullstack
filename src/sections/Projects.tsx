@@ -16,7 +16,7 @@ const projects = [
   {
     category: 'Empresas',
     icon: Building2,
-    color: '#0066FF',
+    color: '#00FF41',
     title: 'Webs Corporativas de Impacto',
     description: 'Diseño y desarrollo de sitios web profesionales que destacan la identidad de marca y generan confianza en los clientes.',
     achievements: [
@@ -46,7 +46,7 @@ const projects = [
   {
     category: 'E-Commerce',
     icon: ShoppingBag,
-    color: '#FF6B35',
+    color: '#39FF14',
     title: 'Apps Android de Ventas Online',
     description: 'Plataformas de comercio electrónico para productos físicos y digitales con experiencia de compra optimizada.',
     achievements: [
@@ -89,18 +89,18 @@ export function Projects() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0e1a] via-[#0d1220] to-[#0a0e1a]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#020802]/70 via-[#061106]/70 to-[#020802]/70" />
       
       {/* Decorative Elements */}
-      <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-[#FF6B35]/5 rounded-full blur-[200px]" />
-      <div className="absolute bottom-1/3 left-0 w-[500px] h-[500px] bg-[#0066FF]/5 rounded-full blur-[200px]" />
+      <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-[#39FF14]/5 rounded-full blur-[200px]" />
+      <div className="absolute bottom-1/3 left-0 w-[500px] h-[500px] bg-[#00FF41]/5 rounded-full blur-[200px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
         <div className={`text-center mb-16 sm:mb-20 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FF6B35]/10 border border-[#FF6B35]/30 mb-6">
-            <Briefcase className="w-4 h-4 text-[#FF6B35]" />
-            <span className="text-sm font-medium text-[#FF6B35]">Experiencia</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#39FF14]/10 border border-[#39FF14]/30 mb-6">
+            <Briefcase className="w-4 h-4 text-[#39FF14]" />
+            <span className="text-sm font-medium text-[#39FF14]">Experiencia</span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
@@ -150,7 +150,7 @@ export function Projects() {
             return (
               <Card 
                 key={index}
-                className="relative overflow-hidden bg-[#0d1220]/80 border-white/5 backdrop-blur-sm"
+                className="relative overflow-hidden bg-[#061106]/80 border-white/5 backdrop-blur-sm"
               >
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
                   {/* Content Side */}

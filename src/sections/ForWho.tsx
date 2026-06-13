@@ -9,7 +9,7 @@ const audiences = [
     subtitle: 'Para quienes están comenzando',
     description:
       'Tienes una idea de negocio o ya emprendiste, pero no sabes cómo llevarla al mundo digital. Te acompaño desde cero: desde crear tu primera página web hasta montar una tienda online completa.',
-    color: '#0066FF',
+    color: '#00FF41',
     cases: [
       'Tu primera página web o tienda online',
       'Aplicación para tu emprendimiento',
@@ -37,7 +37,7 @@ const audiences = [
     subtitle: 'Para los que quieren dar el siguiente salto',
     description:
       'Ya tienes un negocio funcionando pero quieres vender más, llegar a más clientes online o hacer que tus procesos sean más eficientes. Te ayudo a dar el siguiente salto digital.',
-    color: '#FF6B35',
+    color: '#39FF14',
     cases: [
       'Tienda online para vender 24/7',
       'App propia para tus clientes',
@@ -76,11 +76,11 @@ export function ForWho() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0e1a] via-[#0d1220] to-[#0a0e1a]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#020802]/70 via-[#061106]/70 to-[#020802]/70" />
 
       {/* Decorative */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-[#0066FF]/5 rounded-full blur-[200px]" />
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-[#FF6B35]/5 rounded-full blur-[200px]" />
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-[#00FF41]/5 rounded-full blur-[200px]" />
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-[#39FF14]/5 rounded-full blur-[200px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
@@ -112,7 +112,7 @@ export function ForWho() {
               <Card
                 key={index}
                 data-index={index}
-                className={`audience-card group relative p-8 bg-[#0d1220]/80 border-white/5 backdrop-blur-sm overflow-hidden
+                className={`audience-card group relative p-8 bg-[#061106]/80 border-white/5 backdrop-blur-sm overflow-hidden
                   transition-all duration-700 ease-out hover:scale-[1.02]
                   ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
                 style={{

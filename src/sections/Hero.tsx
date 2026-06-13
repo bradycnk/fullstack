@@ -41,15 +41,15 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-dark" />
       
       {/* Animated Orbs */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-[#0066FF]/20 rounded-full blur-[100px] animate-pulse-glow parallax" />
+      <div className="absolute top-20 left-10 w-72 h-72 bg-[#00FF41]/20 rounded-full blur-[100px] animate-pulse-glow parallax" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#00D9A5]/15 rounded-full blur-[120px] animate-pulse-glow parallax" style={{ animationDelay: '1s' }} />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#FF6B35]/10 rounded-full blur-[150px] animate-pulse-glow parallax" style={{ animationDelay: '2s' }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#39FF14]/10 rounded-full blur-[150px] animate-pulse-glow parallax" style={{ animationDelay: '2s' }} />
       
       {/* Grid Pattern */}
       <div 
         className="absolute inset-0 opacity-[0.03]"
         style={{
-          backgroundImage: `linear-gradient(#0066FF 1px, transparent 1px), linear-gradient(90deg, #0066FF 1px, transparent 1px)`,
+          backgroundImage: `linear-gradient(#00FF41 1px, transparent 1px), linear-gradient(90deg, #00FF41 1px, transparent 1px)`,
           backgroundSize: '50px 50px'
         }}
       />
@@ -61,7 +61,7 @@ export function Hero() {
           <div className="text-center lg:text-left order-2 lg:order-1">
             <Badge 
               variant="outline" 
-              className="mb-6 px-4 py-2 text-sm border-[#0066FF]/50 text-[#00D9A5] bg-[#0066FF]/10 backdrop-blur-sm"
+              className="mb-6 px-4 py-2 text-sm border-[#00FF41]/50 text-[#00D9A5] bg-[#00FF41]/10 backdrop-blur-sm"
             >
               <Code2 className="w-4 h-4 mr-2" />
               Ingeniero de Software
@@ -76,9 +76,9 @@ export function Hero() {
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              ¿Tienes una <span className="text-[#0066FF] font-medium">idea de negocio</span>, necesitas una
+              ¿Tienes una <span className="text-[#00FF41] font-medium">idea de negocio</span>, necesitas una
               <span className="text-[#00D9A5] font-medium"> página web profesional</span> o quieres
-              <span className="text-[#FF6B35] font-medium"> vender tus productos en internet</span>?
+              <span className="text-[#39FF14] font-medium"> vender tus productos en internet</span>?
               Me encargo de todo lo técnico para que tú solo te preocupes por hacer crecer tu negocio. Sin jerga, sin complicaciones.
             </p>
             
@@ -86,7 +86,7 @@ export function Hero() {
               <Button 
                 size="lg"
                 onClick={scrollToContact}
-                className="bg-gradient-to-r from-[#0066FF] to-[#00D9A5] hover:from-[#0055DD] hover:to-[#00C595] text-white font-semibold px-8 py-6 text-lg glow-blue transition-all duration-300 hover:scale-105"
+                className="bg-gradient-to-r from-[#00FF41] to-[#00D9A5] hover:from-[#00DD38] hover:to-[#00C595] text-white font-semibold px-8 py-6 text-lg glow-blue transition-all duration-300 hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
                 Hablemos
@@ -97,7 +97,7 @@ export function Hero() {
                 size="lg"
                 variant="outline"
                 onClick={scrollToServices}
-                className="border-2 border-[#FF6B35]/50 text-white hover:bg-[#FF6B35]/10 hover:border-[#FF6B35] px-8 py-6 text-lg transition-all duration-300"
+                className="border-2 border-[#39FF14]/50 text-white hover:bg-[#39FF14]/10 hover:border-[#39FF14] px-8 py-6 text-lg transition-all duration-300"
               >
                 <Rocket className="w-5 h-5 mr-2" />
                 Ver Servicios
@@ -107,7 +107,7 @@ export function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-white/10">
               <div>
-                <div className="text-2xl sm:text-3xl font-bold text-[#0066FF]">+50</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#00FF41]">+50</div>
                 <div className="text-sm text-gray-500 mt-1">Proyectos Entregados</div>
               </div>
               <div>
@@ -115,7 +115,7 @@ export function Hero() {
                 <div className="text-sm text-gray-500 mt-1">Clientes Satisfechos</div>
               </div>
               <div>
-                <div className="text-2xl sm:text-3xl font-bold text-[#FF6B35]">100%</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#39FF14]">100%</div>
                 <div className="text-sm text-gray-500 mt-1">Satisfacción Garantizada</div>
               </div>
             </div>
@@ -125,10 +125,10 @@ export function Hero() {
           <div className="relative order-1 lg:order-2 flex justify-center">
             <div className="relative">
               {/* Glow Ring */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#0066FF] via-[#00D9A5] to-[#FF6B35] blur-xl opacity-60 animate-pulse-glow" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#00FF41] via-[#00D9A5] to-[#39FF14] blur-xl opacity-60 animate-pulse-glow" />
               
               {/* Outer Ring */}
-              <div className="absolute -inset-4 rounded-full border-2 border-dashed border-[#0066FF]/30 animate-spin" style={{ animationDuration: '20s' }} />
+              <div className="absolute -inset-4 rounded-full border-2 border-dashed border-[#00FF41]/30 animate-spin" style={{ animationDuration: '20s' }} />
               
               {/* Profile Image Container */}
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/10 glow-blue">
@@ -139,27 +139,27 @@ export function Hero() {
                 />
                 
                 {/* Overlay Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0066FF]/30 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#00FF41]/30 via-transparent to-transparent" />
               </div>
               
               {/* Floating Badges */}
-              <div className="absolute -top-4 -right-4 bg-[#0d1220] border border-[#0066FF]/50 rounded-xl px-4 py-2 animate-float">
+              <div className="absolute -top-4 -right-4 bg-[#061106] border border-[#00FF41]/50 rounded-xl px-4 py-2 animate-float">
                 <div className="flex items-center gap-2">
-                  <Brain className="w-5 h-5 text-[#0066FF]" />
+                  <Brain className="w-5 h-5 text-[#00FF41]" />
                   <span className="text-sm font-medium text-white">IA Integrada</span>
                 </div>
               </div>
               
-              <div className="absolute -bottom-4 -left-4 bg-[#0d1220] border border-[#00D9A5]/50 rounded-xl px-4 py-2 animate-float" style={{ animationDelay: '1s' }}>
+              <div className="absolute -bottom-4 -left-4 bg-[#061106] border border-[#00D9A5]/50 rounded-xl px-4 py-2 animate-float" style={{ animationDelay: '1s' }}>
                 <div className="flex items-center gap-2">
                   <Rocket className="w-5 h-5 text-[#00D9A5]" />
                   <span className="text-sm font-medium text-white">Full Stack</span>
                 </div>
               </div>
               
-              <div className="absolute top-1/2 -right-8 sm:-right-12 bg-[#0d1220] border border-[#FF6B35]/50 rounded-xl px-4 py-2 animate-float" style={{ animationDelay: '2s' }}>
+              <div className="absolute top-1/2 -right-8 sm:-right-12 bg-[#061106] border border-[#39FF14]/50 rounded-xl px-4 py-2 animate-float" style={{ animationDelay: '2s' }}>
                 <div className="flex items-center gap-2">
-                  <Code2 className="w-5 h-5 text-[#FF6B35]" />
+                  <Code2 className="w-5 h-5 text-[#39FF14]" />
                   <span className="text-sm font-medium text-white">PWA</span>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export function Hero() {
       </div>
       
       {/* Bottom Gradient Fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0e1a] to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#020802] to-transparent" />
     </section>
   );
 }

@@ -14,7 +14,7 @@ const services = [
     icon: Code2,
     title: 'Desarrollo Web Full Stack',
     description: 'Construyo tu sitio web o aplicación desde cero: con usuarios, pagos, bases de datos y todo funcionando. Ideal si tienes una idea y necesitas hacerla realidad en internet.',
-    color: '#0066FF',
+    color: '#00FF41',
     features: ['Registro de usuarios', 'Pagos integrados', 'Panel de administración', 'Funcionamiento en la nube']
   },
   {
@@ -28,21 +28,21 @@ const services = [
     icon: ShoppingCart,
     title: 'Apps de Ventas Online',
     description: 'Vende tus productos o servicios online sin depender de otras plataformas. Tu propia tienda con carrito, pagos seguros y control total de tu inventario desde cualquier dispositivo.',
-    color: '#FF6B35',
+    color: '#39FF14',
     features: ['Carrito de compras', 'Pagos seguros', 'Control de inventario', 'Facturación automática']
   },
   {
     icon: Zap,
     title: 'Automatización de Ventas',
     description: 'Deja que el sistema trabaje por ti: correos automáticos a clientes potenciales, seguimiento de ventas y reportes listos, sin que tengas que hacer nada manualmente.',
-    color: '#FFD700',
+    color: '#ADFF2F',
     features: ['Correos automáticos', 'Seguimiento de clientes', 'Embudos de venta', 'Reportes diarios']
   },
   {
     icon: Smartphone,
     title: 'Apps Android PWA',
     description: 'Tu aplicación disponible directamente en el celular Android de tus clientes, sin que ellos tengan que ir a ninguna tienda de apps. Se instala fácil y funciona rápido.',
-    color: '#9F7AEA',
+    color: '#00E676',
     features: ['Se instala directo', 'Funciona sin internet', 'Notificaciones push', 'Rápida y ligera']
   },
   {
@@ -84,18 +84,18 @@ export function Services() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[#0a0e1a]" />
+      <div className="absolute inset-0 bg-[#020802]/65" />
       
       {/* Decorative Elements */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#0066FF]/5 rounded-full blur-[150px]" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#00FF41]/5 rounded-full blur-[150px]" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#00D9A5]/5 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 sm:mb-20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0066FF]/10 border border-[#0066FF]/30 mb-6">
-            <Zap className="w-4 h-4 text-[#0066FF]" />
-            <span className="text-sm font-medium text-[#0066FF]">Mis Servicios</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00FF41]/10 border border-[#00FF41]/30 mb-6">
+            <Zap className="w-4 h-4 text-[#00FF41]" />
+            <span className="text-sm font-medium text-[#00FF41]">Mis Servicios</span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
@@ -120,7 +120,7 @@ export function Services() {
               <Card
                 key={index}
                 data-index={index}
-                className={`service-card group relative p-6 sm:p-8 bg-[#0d1220]/80 border-white/5 hover:border-[${service.color}]/50 
+                className={`service-card group relative p-6 sm:p-8 bg-[#061106]/80 border-white/5 hover:border-[${service.color}]/50 
                   backdrop-blur-sm overflow-hidden transition-all duration-700 ease-out
                   ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
                 style={{ 

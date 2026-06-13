@@ -43,9 +43,9 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative bg-[#0a0e1a] border-t border-white/5">
+    <footer className="relative bg-[#020802]/85 border-t border-white/5">
       {/* Top Gradient Line */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#0066FF]/50 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#00FF41]/50 to-transparent" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
@@ -56,12 +56,12 @@ export function Footer() {
               onClick={(e) => { e.preventDefault(); scrollToSection('#inicio'); }}
               className="flex items-center gap-2 mb-6"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0066FF] to-[#00D9A5] 
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#00FF41] to-[#00D9A5] 
                 flex items-center justify-center">
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-lg font-bold text-white">
-                Ingeniero<span className="text-[#0066FF]">.dev</span>
+                Ingeniero<span className="text-[#00FF41]">.dev</span>
               </span>
             </a>
             
@@ -137,7 +137,7 @@ export function Footer() {
               </a>
               <a 
                 href="mailto:contacto@ingeniero.dev"
-                className="flex items-center gap-3 text-gray-400 hover:text-[#0066FF] transition-colors"
+                className="flex items-center gap-3 text-gray-400 hover:text-[#00FF41] transition-colors"
               >
                 <Mail className="w-5 h-5" />
                 <span>contacto@ingeniero.dev</span>
@@ -150,9 +150,9 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-6 px-4 py-2 rounded-lg
-                bg-gradient-to-r from-[#0066FF]/20 to-[#00D9A5]/20
-                border border-[#0066FF]/30 text-[#00D9A5] text-sm font-medium
-                hover:from-[#0066FF]/30 hover:to-[#00D9A5]/30 transition-all duration-300"
+                bg-gradient-to-r from-[#00FF41]/20 to-[#00D9A5]/20
+                border border-[#00FF41]/30 text-[#00D9A5] text-sm font-medium
+                hover:from-[#00FF41]/30 hover:to-[#00D9A5]/30 transition-all duration-300"
             >
               <MessageCircle className="w-4 h-4" />
               <span>Disponible para proyectos</span>
@@ -164,7 +164,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row 
           items-center justify-between gap-4">
           <p className="text-gray-500 text-sm flex items-center gap-1">
-            Hecho con <Heart className="w-4 h-4 text-[#FF6B35] fill-[#FF6B35]" /> usando React & Tailwind
+            Hecho con <Heart className="w-4 h-4 text-[#39FF14] fill-[#39FF14]" /> usando React & Tailwind
           </p>
           
           <p className="text-gray-500 text-sm">

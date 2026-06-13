@@ -55,7 +55,7 @@ export function Navigation() {
       <nav 
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           isScrolled 
-            ? 'bg-[#0a0e1a]/90 backdrop-blur-xl border-b border-white/5 py-3' 
+            ? 'bg-[#020802]/90 backdrop-blur-xl border-b border-white/5 py-3' 
             : 'bg-transparent py-5'
         }`}
       >
@@ -67,12 +67,12 @@ export function Navigation() {
               onClick={(e) => { e.preventDefault(); scrollToSection('#inicio'); }}
               className="flex items-center gap-2 group"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0066FF] to-[#00D9A5] 
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#00FF41] to-[#00D9A5] 
                 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-lg font-bold text-white hidden sm:block">
-                Ingeniero<span className="text-[#0066FF]">.dev</span>
+                Ingeniero<span className="text-[#00FF41]">.dev</span>
               </span>
             </a>
 
@@ -114,7 +114,7 @@ export function Navigation() {
               >
                 <Button 
                   size="sm"
-                  className="bg-gradient-to-r from-[#0066FF] to-[#00D9A5] hover:from-[#0055DD] hover:to-[#00C595]
+                  className="bg-gradient-to-r from-[#00FF41] to-[#00D9A5] hover:from-[#00DD38] hover:to-[#00C595]
                     text-white font-medium"
                 >
                   <MessageCircle className="w-4 h-4 mr-2" />
@@ -149,7 +149,7 @@ export function Navigation() {
         
         {/* Menu Content */}
         <div 
-          className={`absolute top-20 left-4 right-4 bg-[#0d1220] border border-white/10 rounded-2xl 
+          className={`absolute top-20 left-4 right-4 bg-[#061106] border border-white/10 rounded-2xl 
             p-6 transition-all duration-500 ${
             isMobileMenuOpen ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'
           }`}
@@ -166,11 +166,11 @@ export function Navigation() {
                   onClick={(e) => { e.preventDefault(); scrollToSection(item.href); }}
                   className={`flex items-center gap-3 px-4 py-3 rounded-xl font-medium transition-all duration-300 ${
                     isActive 
-                      ? 'bg-[#0066FF]/20 text-white border border-[#0066FF]/30' 
+                      ? 'bg-[#00FF41]/20 text-white border border-[#00FF41]/30' 
                       : 'text-gray-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
-                  <Icon className={`w-5 h-5 ${isActive ? 'text-[#0066FF]' : ''}`} />
+                  <Icon className={`w-5 h-5 ${isActive ? 'text-[#00FF41]' : ''}`} />
                   {item.label}
                 </a>
               );
@@ -185,7 +185,7 @@ export function Navigation() {
               className="block"
             >
               <Button 
-                className="w-full bg-gradient-to-r from-[#0066FF] to-[#00D9A5] hover:from-[#0055DD] hover:to-[#00C595]
+                className="w-full bg-gradient-to-r from-[#00FF41] to-[#00D9A5] hover:from-[#00DD38] hover:to-[#00C595]
                   text-white font-medium py-6"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />

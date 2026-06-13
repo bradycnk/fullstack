@@ -28,7 +28,7 @@ const contactMethods = [
     title: 'Email',
     value: 'contacto@ingeniero.dev',
     description: 'Para propuestas formales',
-    color: '#0066FF',
+    color: '#00FF41',
     action: 'mailto:contacto@ingeniero.dev',
     buttonText: 'Enviar email'
   },
@@ -37,7 +37,7 @@ const contactMethods = [
     title: 'Llamada',
     value: '+58 414 955 5318',
     description: 'Horario: 8am - 6pm',
-    color: '#FF6B35',
+    color: '#39FF14',
     action: 'tel:+584149555318',
     buttonText: 'Llamar ahora'
   }
@@ -83,12 +83,12 @@ export function Contact() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[#0a0e1a]" />
+      <div className="absolute inset-0 bg-[#020802]/65" />
       
       {/* Decorative Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#0066FF]/5 rounded-full blur-[200px]" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#00FF41]/5 rounded-full blur-[200px]" />
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[#00D9A5]/5 rounded-full blur-[200px]" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#FF6B35]/5 rounded-full blur-[150px]" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#39FF14]/5 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
@@ -118,7 +118,7 @@ export function Contact() {
             {[
               {
                 step: '1',
-                color: '#0066FF',
+                color: '#00FF41',
                 title: 'Te respondo en menos de 24h',
                 description: 'Me pondré en contacto para coordinar una llamada o responderte por escrito, según prefieras.'
               },
@@ -130,7 +130,7 @@ export function Contact() {
               },
               {
                 step: '3',
-                color: '#FF6B35',
+                color: '#39FF14',
                 title: 'Recibes tu propuesta',
                 description: 'Te envío un presupuesto detallado con tiempos y costos exactos. Sin compromiso de tu parte.'
               }
@@ -163,7 +163,7 @@ export function Contact() {
               return (
                 <Card
                   key={index}
-                  className="group relative p-6 bg-[#0d1220]/80 border-white/5 hover:border-white/10 
+                  className="group relative p-6 bg-[#061106]/80 border-white/5 hover:border-white/10 
                     backdrop-blur-sm overflow-hidden transition-all duration-500"
                 >
                   {/* Glow Effect */}
@@ -209,7 +209,7 @@ export function Contact() {
             })}
             
             {/* Availability Card */}
-            <Card className="p-6 bg-gradient-to-r from-[#0066FF]/10 to-[#00D9A5]/10 border-[#0066FF]/20">
+            <Card className="p-6 bg-gradient-to-r from-[#00FF41]/10 to-[#00D9A5]/10 border-[#00FF41]/20">
               <div className="flex items-center gap-3">
                 <div className="relative">
                   <div className="w-3 h-3 rounded-full bg-[#00D9A5]" />
@@ -225,7 +225,7 @@ export function Contact() {
 
           {/* Contact Form */}
           <div className={`lg:col-span-3 transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
-            <Card className="p-8 lg:p-10 bg-[#0d1220]/80 border-white/5 backdrop-blur-sm">
+            <Card className="p-8 lg:p-10 bg-[#061106]/80 border-white/5 backdrop-blur-sm">
               <h3 className="text-xl font-bold text-white mb-2">
                 Cuéntame sobre tu proyecto
               </h3>
@@ -258,7 +258,7 @@ export function Contact() {
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         className="bg-white/5 border-white/10 text-white placeholder:text-gray-600
-                          focus:border-[#0066FF] focus:ring-[#0066FF]/20"
+                          focus:border-[#00FF41] focus:ring-[#00FF41]/20"
                         required
                       />
                     </div>
@@ -272,7 +272,7 @@ export function Contact() {
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         className="bg-white/5 border-white/10 text-white placeholder:text-gray-600
-                          focus:border-[#0066FF] focus:ring-[#0066FF]/20"
+                          focus:border-[#00FF41] focus:ring-[#00FF41]/20"
                         required
                       />
                     </div>
@@ -287,7 +287,7 @@ export function Contact() {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="bg-white/5 border-white/10 text-white placeholder:text-gray-600
-                        focus:border-[#0066FF] focus:ring-[#0066FF]/20 min-h-[150px] resize-none"
+                        focus:border-[#00FF41] focus:ring-[#00FF41]/20 min-h-[150px] resize-none"
                       required
                     />
                   </div>
@@ -295,7 +295,7 @@ export function Contact() {
                   <Button 
                     type="submit"
                     size="lg"
-                    className="w-full bg-gradient-to-r from-[#0066FF] to-[#00D9A5] hover:from-[#0055DD] hover:to-[#00C595]
+                    className="w-full bg-gradient-to-r from-[#00FF41] to-[#00D9A5] hover:from-[#00DD38] hover:to-[#00C595]
                       text-white font-semibold py-6 glow-blue transition-all duration-300 hover:scale-[1.02]"
                   >
                     <Send className="w-5 h-5 mr-2" />

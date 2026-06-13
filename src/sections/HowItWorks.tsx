@@ -8,7 +8,7 @@ const steps = [
     title: 'Consulta Gratuita',
     description:
       'Contáctame por WhatsApp, email o el formulario. En menos de 24 horas coordinamos una llamada de 30 minutos sin costo para entender tu idea o necesidad.',
-    color: '#0066FF',
+    color: '#00FF41',
     badge: 'Paso 1',
   },
   {
@@ -26,7 +26,7 @@ const steps = [
     title: 'Desarrollo Profesional',
     description:
       'Me encargo de toda la parte técnica. Durante el proceso te envío avances periódicos para que siempre sepas cómo va tu proyecto sin necesidad de entender código.',
-    color: '#FF6B35',
+    color: '#39FF14',
     badge: 'Paso 3',
   },
   {
@@ -35,7 +35,7 @@ const steps = [
     title: 'Entrega y Soporte',
     description:
       'Recibes tu proyecto funcionando, con todo explicado en lenguaje simple. Incluye soporte técnico post-entrega para que no te quedes solo después.',
-    color: '#FFD700',
+    color: '#ADFF2F',
     badge: 'Paso 4',
   },
 ];
@@ -62,9 +62,9 @@ export function HowItWorks() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[#0a0e1a]" />
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#0066FF]/5 rounded-full blur-[150px]" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#FFD700]/5 rounded-full blur-[150px]" />
+      <div className="absolute inset-0 bg-[#020802]/65" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#00FF41]/5 rounded-full blur-[150px]" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#ADFF2F]/5 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
@@ -73,9 +73,9 @@ export function HowItWorks() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
           }`}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FFD700]/10 border border-[#FFD700]/30 mb-6">
-            <Rocket className="w-4 h-4 text-[#FFD700]" />
-            <span className="text-sm font-medium text-[#FFD700]">Proceso de Trabajo</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ADFF2F]/10 border border-[#ADFF2F]/30 mb-6">
+            <Rocket className="w-4 h-4 text-[#ADFF2F]" />
+            <span className="text-sm font-medium text-[#ADFF2F]">Proceso de Trabajo</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
@@ -93,7 +93,7 @@ export function HowItWorks() {
         {/* Steps Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 relative">
           {/* Connector line (desktop only) */}
-          <div className="hidden lg:block absolute top-12 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-[#0066FF]/40 via-[#00D9A5]/40 via-[#FF6B35]/40 to-[#FFD700]/40 z-0" />
+          <div className="hidden lg:block absolute top-12 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-[#00FF41]/40 via-[#00D9A5]/40 via-[#39FF14]/40 to-[#ADFF2F]/40 z-0" />
 
           {steps.map((step, index) => {
             const Icon = step.icon;
@@ -119,7 +119,7 @@ export function HowItWorks() {
                   {/* Step badge */}
                   <div
                     className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full text-xs font-bold"
-                    style={{ background: step.color, color: '#0a0e1a' }}
+                    style={{ background: step.color, color: '#020802' }}
                   >
                     {step.badge}
                   </div>
@@ -153,8 +153,8 @@ export function HowItWorks() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition-all duration-300 hover:scale-105"
             style={{
-              background: 'linear-gradient(135deg, #0066FF, #00D9A5)',
-              boxShadow: '0 0 30px #0066FF40',
+              background: 'linear-gradient(135deg, #00FF41, #00D9A5)',
+              boxShadow: '0 0 30px #00FF4140',
             }}
           >
             <MessageCircle className="w-5 h-5" />

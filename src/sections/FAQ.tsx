@@ -57,8 +57,8 @@ export function FAQ() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0e1a] via-[#0d1220] to-[#0a0e1a]" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[#0066FF]/5 rounded-full blur-[200px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#020802]/70 via-[#061106]/70 to-[#020802]/70" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[#00FF41]/5 rounded-full blur-[200px]" />
 
       <div className="relative z-10 max-w-4xl mx-auto">
         {/* Section Header */}
@@ -67,9 +67,9 @@ export function FAQ() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
           }`}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#9F7AEA]/10 border border-[#9F7AEA]/30 mb-6">
-            <HelpCircle className="w-4 h-4 text-[#9F7AEA]" />
-            <span className="text-sm font-medium text-[#9F7AEA]">Preguntas Frecuentes</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00E676]/10 border border-[#00E676]/30 mb-6">
+            <HelpCircle className="w-4 h-4 text-[#00E676]" />
+            <span className="text-sm font-medium text-[#00E676]">Preguntas Frecuentes</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
@@ -94,7 +94,7 @@ export function FAQ() {
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="bg-[#0d1220]/80 border border-white/5 rounded-xl px-6 hover:border-[#0066FF]/30 transition-colors duration-300"
+                className="bg-[#061106]/80 border border-white/5 rounded-xl px-6 hover:border-[#00FF41]/30 transition-colors duration-300"
               >
                 <AccordionTrigger className="text-white text-base font-semibold hover:no-underline hover:text-[#00D9A5] transition-colors py-5">
                   {faq.question}

@@ -8,7 +8,7 @@ const testimonials = [
     role: 'Dueña de tienda de ropa',
     initials: 'MF',
     rating: 5,
-    color: '#0066FF',
+    color: '#00FF41',
     text: 'No sabía nada de tecnología y tenía miedo de que fuera complicado. Me explicó todo con palabras sencillas y en pocas semanas tenía mi tienda online vendiendo sola. Ahora recibo pedidos hasta de madrugada.',
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
     role: 'Emprendedora digital',
     initials: 'AG',
     rating: 5,
-    color: '#FF6B35',
+    color: '#39FF14',
     text: 'Lo que más valoro es que se encargó de TODO. Yo solo le conté mi idea y él la hizo realidad. Siempre disponible, cumplió los tiempos y me dejó un sistema fácil de manejar yo misma.',
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     role: 'Dueño de restaurante',
     initials: 'JM',
     rating: 5,
-    color: '#9F7AEA',
+    color: '#00E676',
     text: 'Integró un asistente que responde a mis clientes las 24 horas por WhatsApp. Dejé de perder pedidos por no contestar a tiempo y mi equipo ahora se enfoca en lo importante. Totalmente recomendado.',
   },
   {
@@ -40,7 +40,7 @@ const testimonials = [
     role: 'Coach y consultora',
     initials: 'LP',
     rating: 5,
-    color: '#FFD700',
+    color: '#ADFF2F',
     text: 'Pasé de no tener presencia en internet a tener una web que me consigue clientes mientras duermo. El trato fue cercano y profesional en todo momento. Por fin alguien que habla mi idioma y no solo tecnicismos.',
   },
   {
@@ -82,18 +82,18 @@ export function Testimonials() {
       className="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[#0a0e1a]" />
+      <div className="absolute inset-0 bg-[#020802]/65" />
 
       {/* Decorative */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#9F7AEA]/5 rounded-full blur-[150px]" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#00E676]/5 rounded-full blur-[150px]" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#00D9A5]/5 rounded-full blur-[150px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 sm:mb-20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#9F7AEA]/10 border border-[#9F7AEA]/30 mb-6">
-            <Star className="w-4 h-4 text-[#9F7AEA]" />
-            <span className="text-sm font-medium text-[#9F7AEA]">Testimonios</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00E676]/10 border border-[#00E676]/30 mb-6">
+            <Star className="w-4 h-4 text-[#00E676]" />
+            <span className="text-sm font-medium text-[#00E676]">Testimonios</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
@@ -116,7 +116,7 @@ export function Testimonials() {
               <Card
                 key={index}
                 data-index={index}
-                className={`testimonial-card group relative p-8 bg-[#0d1220]/80 border-white/5 backdrop-blur-sm overflow-hidden
+                className={`testimonial-card group relative p-8 bg-[#061106]/80 border-white/5 backdrop-blur-sm overflow-hidden
                   transition-all duration-700 ease-out hover:scale-[1.02]
                   ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
                 style={{
