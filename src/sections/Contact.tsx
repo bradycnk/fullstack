@@ -26,10 +26,10 @@ const contactMethods = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'contacto@ingeniero.dev',
-    description: 'Para propuestas formales',
+    value: 'elsalvadorescristo777@gmail.com',
+    description: 'Para propuestas y presupuestos',
     color: '#00FF41',
-    action: 'mailto:contacto@ingeniero.dev',
+    action: 'mailto:elsalvadorescristo777@gmail.com',
     buttonText: 'Enviar email'
   },
   {
