@@ -1,3 +1,4 @@
+import { VideoBackground } from './components/VideoBackground';
 import { MatrixRain } from './components/MatrixRain';
 import { NeuralBackground } from './components/NeuralBackground';
 import { Navigation } from './sections/Navigation';
@@ -15,6 +16,7 @@ import './App.css';
 function App() {
   return (
     <div className="relative min-h-screen bg-[#010401] text-white overflow-x-hidden">
+      <VideoBackground />
       <MatrixRain />
       <NeuralBackground />
       <Navigation />
