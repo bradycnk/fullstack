@@ -102,11 +102,35 @@
     animation: gradient-shift 8s ease infinite;
     background-size: 200% 200%;
   }
+
+  .animate-matrix-stream-1 {
+    animation: matrixStream 4s linear infinite;
+  }
+
+  .animate-matrix-stream-2 {
+    animation: matrixStream 6s linear infinite;
+  }
+
+  .animate-matrix-stream-3 {
+    animation: matrixStream 5s linear infinite;
+  }
+
+  .animate-scanline {
+    animation: scanline 4s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 30s linear infinite;
+  }
+
+  .animate-spin-reverse-slow {
+    animation: spinReverse 25s linear infinite;
+  }
 }
 
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+  50% { transform: translateY(-16px); }
 }
 
 @keyframes pulse-glow {
@@ -118,6 +142,27 @@
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}
+
+@keyframes matrixStream {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0%); }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); opacity: 0; }
+  50% { opacity: 0.8; }
+  100% { transform: translateY(1000%); opacity: 0; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinReverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
 }
 
 /* Custom scrollbar */
